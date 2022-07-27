@@ -116,6 +116,7 @@ header {
 
 .form-element label{
     width: calc(100% - 50px);
+    height: 45px;
     display: flex;
     justify-content: space-between;
     border: 1px solid #D9D9D9;
@@ -131,11 +132,14 @@ header {
 }
 
 .form-element label div {
-    display: inline;
+    display: flex;
+    justify-content: center;
     width: 100px;
     border: 1px solid #D9D9D9;
+    color: #4d4e5a;
     border-radius: 6px;
     opacity: 1;
+    font-size: 15px;
 }
 
 .form-btn-section {

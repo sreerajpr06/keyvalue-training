@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Employee</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+</head>
+<body>
+    <div class="page">
+        
+        <!-- Side navigation bar -->
+        <aside class="sidenav">
+            <img src="./assets/kv logo.png" alt="Logo">
+            <nav>
+                <a href="/">
+                    <div class="sidenav-element">
+                        <img src="./assets/List.png" alt="Employee List">
+                        <p>Employee list</p>
+                    </div>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main content -->
+        <main>
+            <header></header>
+
+            <!-- Heading -->
+            <section class="heading">
+                <h1>Create Employee</h1>
+            </section>
+
+            <!-- Form -->
+            <section>
+                <form action="" method="" class="form-container">
+                    
+                    <div class="form-inputs">
+                        
+                        <div class="form-element">
+                            <p>Employee Name</p>
+                            <input type="text" placeholder="Employee Name">
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Employee ID</p>
+                            <input type="text" placeholder="Employee ID">
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Joining Date</p>
+                            <input type="text" placeholder="Joining Date">
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Role</p>
+                            <select name="role" id="role">
+                                <option value="" selected disabled hidden>Choose Role</option>
+                                <option value="admin">Admin</option>
+                                <option value="hr">HR</option>
+                                <option value="swe">SWE</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Status</p>
+                            <select name="status" id="status">
+                                <option value="" selected disabled hidden>Status</option>
+                                <option value="active">Active</option>
+                                <option value="inactive">Inactive</option>
+                                <option value="probation">Probation</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Experience</p>
+                            <input type="text" placeholder="Experience">
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Address</p>
+                            <input type="text" placeholder="Address">
+                        </div>
+                        
+                        <div class="form-element">
+                            <p>Upload ID proof</p>
+                            <label for="upload-file">
+                                <p>Choose file</p>
+                                <div>Browse</div>
+                            </label>
+                            <input type="file" id="upload-file">
+                        </div>
+                    </div>
+                    
+                    <div class="form-btn-section">
+                        <input type="submit" class="btn-submit" value="Create">
+                        <input type="submit" class="btn-cancel" value="Cancel">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
